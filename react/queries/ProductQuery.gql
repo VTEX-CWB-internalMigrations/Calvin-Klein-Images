@@ -1,0 +1,11 @@
+query ProductQuery($slug: String) {
+  product(identifier: {field: slug, value:""}, slug: $slug) {
+    items {
+      itemId
+      images {
+        imageUrl
+		imageText
+      }
+    }
+  }
+}
