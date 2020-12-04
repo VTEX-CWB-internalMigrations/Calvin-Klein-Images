@@ -1,7 +1,7 @@
 {
   "vendor": "calvinklein",
   "name": "calvin-klein-images",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "Component created to customize product page images ",
   "description": "Component created to customize product page images",
   "builders": {
