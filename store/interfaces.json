@@ -1,0 +1,13 @@
+{
+  "calvin-klein-images": {
+    "component": "PDPImages"
+  },
+  "calvin-klein-modal": {
+    "component": "Modal"
+  },
+  "calvin-klein-context": {
+    "component": "ImagesProvider",
+    "composition": "children"
+  }
+}
+

@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "declaration": true,
+    "declarationDir": "/cache/build/build_calvinklein_master/calvinklein.calvin-klein-images@0.0.3/public/@types/calvinklein.calvin-klein-images/react",
+    "jsx": "preserve",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "noEmitOnError": false,
+    "sourceMap": true,
+    "typeRoots": [
+      "/cache/build/build_calvinklein_master/calvinklein.calvin-klein-images@0.0.3/src/react/node_modules/@types"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./typings/*.d.ts",
+    "./**/*.tsx",
+    "./**/*.ts",
+    "./**/*.tsx",
+    "./**/*.ts",
+    "./**/*.d.ts"
+  ],
+  "typeAcquisition": {
+    "enable": false
+  },
+  "extends": "@vtex/tsconfig"
+}
